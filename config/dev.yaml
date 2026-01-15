@@ -1,0 +1,17 @@
+# config/dev.yaml
+server:
+  scheme: "http"
+  host: "localhost"
+  port: 8080
+
+encrypt:
+  header_flag: "encrypt-key"
+  rsa_public_key_pem: |
+    -----BEGIN PUBLIC KEY-----
+    MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALSlBocI1tNlduobXXRKSbW8mqHuYO0a
+    YkFD6ARcmj9NehtCRHTXV+I1vNLRU9kJoWLN67EQph8oyySzUnncMGMCAwEAAQ==
+    -----END PUBLIC KEY-----
+
+clients:
+  default_client_id: "e5cd7e4891bf95d1d19206ce24a7b32e"
+  default_tenant_id: "000000"

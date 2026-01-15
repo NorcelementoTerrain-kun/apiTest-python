@@ -1,0 +1,11 @@
+server:
+  scheme: "http"
+  host: "localhost"
+  port: 8080
+
+encrypt:
+  header_flag: "encrypt-key"
+  rsa_public_key_pem: |
+    -----BEGIN PUBLIC KEY-----
+    YOUR_PUBLIC_KEY_HERE
+    -----END PUBLIC KEY-----
